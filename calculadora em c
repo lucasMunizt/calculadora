@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 main()
-float x,y;
-int resultado,op;
-/* colocando pedidos na tela*/
+float x,y,resultado;
+int op;
 	printf("\n escolha as operacoes:   1-soma   2-subtracao   3-multiplicacao   4-divisao \n ");
 	printf("\n");
 	printf("coloque o numero:\n"); 
@@ -31,7 +30,7 @@ int resultado,op;
 	}
 	
 
-	printf("o resultado e: %d :",resultado);
+	printf("o resultado e: %0.2f :",resultado);
 		
 	
 	
