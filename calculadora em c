@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main(){
+main()
 float x,y;
 int resultado,op;
 /* colocando pedidos na tela*/
-	printf("\n escolha as operacoes: 1-soma 2-subtracao 3-multiplicacao 4-divisao \n ");
-	printf("coloque o numero:\n");
+	printf("\n escolha as operacoes:   1-soma   2-subtracao   3-multiplicacao   4-divisao \n ");
+	printf("\n");
+	printf("coloque o numero:\n"); 
 	scanf("%f",&x);
 	printf("qual operacao:\n");
 	scanf("%d",&op);
