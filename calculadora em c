@@ -4,7 +4,7 @@
 main()
 float x,y,resultado;
 int op;
-	printf("\n escolha as operacoes:   1-soma   2-subtracao   3-multiplicacao   4-divisao \n ");
+	printf("\n escolha as operacoes:   1-soma   2-subtracao   3-multiplicacao   4-divisao 5-percentual \n ");
 	printf("\n");
 	printf("coloque o numero:\n"); 
 	scanf("%f",&x);
@@ -23,7 +23,14 @@ int op;
 	}
 	else if(op == 4){
 		resultado = x / y;
+		
 	}
+	
+	else if(op==5){
+		resultado = y * 0.01;
+	}
+	
+	
 	else{
 		resultado = 0;
 		printf("nenhuma operacao foi feita ");
