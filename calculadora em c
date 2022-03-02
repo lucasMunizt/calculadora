@@ -26,7 +26,7 @@ int op;
 		
 	}
 	
-	else if(op==5){
+	else if(op == 5){ 
 		resultado = y * 0.01;
 	}
 	
